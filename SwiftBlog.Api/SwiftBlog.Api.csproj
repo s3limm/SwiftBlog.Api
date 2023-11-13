@@ -21,11 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Core\Application\Features\" />
+    <Folder Include="Core\Application\Dtos\" />
+    <Folder Include="Core\Application\Mappings\" />
     <Folder Include="Infrastructure\JwtDefault\" />
     <Folder Include="Infrastructure\JwtGenerator\" />
     <Folder Include="Persistance\Migrations\" />
-    <Folder Include="Persistance\Repositories\" />
   </ItemGroup>
 
 </Project>
