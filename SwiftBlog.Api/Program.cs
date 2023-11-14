@@ -15,6 +15,7 @@ builder.Services.AddDbContext<SwiftAppContext>(opt =>
     opt.UseSqlServer("Server=.\\SQLEXPRESS;Database=SwiftAppApiDb;Trusted_Connection=True;TrustServerCertificate=True");
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
