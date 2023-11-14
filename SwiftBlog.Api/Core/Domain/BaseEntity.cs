@@ -12,6 +12,6 @@ namespace SwiftBlog.Api.Core.Domain
 
         public StatusType Status { get; set;}
         public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
     }
 }

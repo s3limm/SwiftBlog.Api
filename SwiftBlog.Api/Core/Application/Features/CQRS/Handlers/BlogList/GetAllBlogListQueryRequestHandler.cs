@@ -20,7 +20,7 @@ namespace SwiftBlog.Api.Core.Application.Features.CQRS.Handlers.BlogList
 
         public async Task<List<BlogListDto>> Handle(GetAllBlogListQueryRequest request, CancellationToken cancellationToken)
         {
-            var data = _repository.GetAllListAsync();
+            var data = await _repository.GetAllListAsync();
             return _mapper.Map<List<BlogListDto>>(data);
         }
     }

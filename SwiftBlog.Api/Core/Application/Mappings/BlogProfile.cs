@@ -4,11 +4,11 @@ using SwiftBlog.Api.Core.Domain;
 
 namespace SwiftBlog.Api.Core.Application.Mappings
 {
-    public class BlogProfile:Profile
+    public class BlogProfile : Profile
     {
         public BlogProfile()
         {
-            CreateMap<BlogListDto, Blog>().ReverseMap();
+            CreateMap<BlogListDto,Blog>().ReverseMap();
         }
     }
 }

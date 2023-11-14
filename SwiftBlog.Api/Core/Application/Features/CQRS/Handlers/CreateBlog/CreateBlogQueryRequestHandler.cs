@@ -6,7 +6,7 @@ using SwiftBlog.Api.Core.Domain;
 
 namespace SwiftBlog.Api.Core.Application.Features.CQRS.Handlers.CreateBlog
 {
-    public class CreateBlogQueryRequestHandler : IRequestHandler<CreateBlogQueryRequest>
+    public class CreateBlogQueryRequestHandler : IRequestHandler<CreateBlogCommandRequest>
     {
         private readonly IRepository<Blog> _repository;
 
@@ -15,7 +15,7 @@ namespace SwiftBlog.Api.Core.Application.Features.CQRS.Handlers.CreateBlog
             _repository = repository;
         }
 
-        public async Task<Unit> Handle(CreateBlogQueryRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(CreateBlogCommandRequest request, CancellationToken cancellationToken)
         {
             await _repository.CreateAsync(new Blog
             {
