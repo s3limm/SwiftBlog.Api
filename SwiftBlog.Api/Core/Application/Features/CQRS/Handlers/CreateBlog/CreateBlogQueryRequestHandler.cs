@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using SwiftBlog.Api.Core.Application.Dtos.Blog;
 using SwiftBlog.Api.Core.Application.Features.CQRS.Commands.Blog.Create;
 using SwiftBlog.Api.Core.Application.Interfaces;
 using SwiftBlog.Api.Core.Domain;

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using SwiftBlog.Api.Core.Application.Dtos.Blog;
+using SwiftBlog.Api.Core.Application.Dtos.BlogDto;
 using SwiftBlog.Api.Core.Application.Features.CQRS.Queries.Blog.GetById;
 using SwiftBlog.Api.Core.Application.Interfaces;
 using SwiftBlog.Api.Core.Domain;

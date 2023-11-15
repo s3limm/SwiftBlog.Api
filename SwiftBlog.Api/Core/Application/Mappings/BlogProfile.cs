@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using SwiftBlog.Api.Core.Application.Dtos.Blog;
+using SwiftBlog.Api.Core.Application.Dtos.BlogDto;
 using SwiftBlog.Api.Core.Domain;
 
 namespace SwiftBlog.Api.Core.Application.Mappings

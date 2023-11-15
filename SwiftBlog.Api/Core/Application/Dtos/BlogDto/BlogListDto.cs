@@ -1,6 +1,6 @@
 ﻿using SwiftBlog.Api.Core.Domain;
 
-namespace SwiftBlog.Api.Core.Application.Dtos.Blog
+namespace SwiftBlog.Api.Core.Application.Dtos.BlogDto
 {
     public class BlogListDto
     {
