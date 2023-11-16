@@ -33,7 +33,8 @@ builder.Services.AddAutoMapper(opt =>
     opt.AddProfiles(new List<Profile>()
     {
         new BlogProfile(),
-        new CategoryProfile()
+        new CategoryProfile(),
+        new UserProfile()
     });
 });
 
